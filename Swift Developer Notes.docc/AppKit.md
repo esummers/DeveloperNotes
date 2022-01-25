@@ -14,6 +14,8 @@ Rich Text:
 
 User defaults may use Key-Value Observing to detect remote changes.
 
+- [Internals guide to user defaults](https://www.vadimbulavin.com/advanced-guide-to-userdefaults-in-swift/)
+
 Example to make user defaults KeyPath compatible:
 
 ```
@@ -36,4 +38,3 @@ Core Foundation:
 
 > Todo: It may be interesting to go straight to CFPreferences instead of using UserDefaults in a Swift wrapper.  Look in to this more.
 
-- [Internals guide to user defaults](https://www.vadimbulavin.com/advanced-guide-to-userdefaults-in-swift/)
