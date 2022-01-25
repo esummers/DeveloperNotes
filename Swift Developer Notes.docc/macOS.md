@@ -1,5 +1,13 @@
 # macOS
 
+## Miscellaneous
+
+System Library Path:
+
+```
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib 
+```
+
 ## CoreWLAN
 
 - [CoreWLAN Example](https://github.com/pavel-a/CoreWLANWirelessManager2/blob/master/CoreWLANController.m)
