@@ -9,3 +9,31 @@ Preference Panes:
 Rich Text:
 
 - [malcommac/SwiftRichString](https://github.com/malcommac/SwiftRichString) – *`UITextView` or `NSTextView`*
+
+## User Defaults
+
+User defaults may use Key-Value Observing to detect remote changes.
+
+Example to make user defaults KeyPath compatible:
+
+```
+extension UserDefaults
+{
+    static let showMenuKey = "showMenu"
+    @objc var showMenu: Bool {
+        get { bool(forKey: Self.showMenuKey) }
+        set { set(newValue, forKey: Self.showMenuKey) }
+    }
+
+    /// Find out if a key is managed by an MDM.
+    var isShowMenuForced: Bool { objectIsForced(forKey: Self.showMenuKey) }
+}
+```
+
+> Note: I’m not sure if there is a way to observe a “forced” state change dynamically to update the UI.
+
+Core Foundation:
+
+> Todo: It may be interesting to go straight to CFPreferences instead of using UserDefaults in a Swift wrapper.  Look in to this more.
+
+- [Internals guide to user defaults](https://www.vadimbulavin.com/advanced-guide-to-userdefaults-in-swift/)
