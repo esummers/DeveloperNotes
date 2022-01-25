@@ -32,7 +32,7 @@ extension UserDefaults
 }
 ```
 
-> Note: I’m not sure if there is a way to observe a “forced” state change dynamically to update the UI.
+> Todo: I’m not sure if there is a way to observe a “forced” state change dynamically to update the UI. Check if there is a KVO notification on the value even if the value doesn't change.
 
 Core Foundation:
 
