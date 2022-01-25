@@ -1,3 +1,3 @@
-# DeveloperNotes
+# Swift Developer Notes
 
-A description of this package.
+A collection of personal notes on Swift development.
