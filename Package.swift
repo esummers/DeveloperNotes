@@ -5,6 +5,7 @@ import PackageDescription
 let package = Package(
     name: "DeveloperNotes",
     products: [
+        .library(name: "DeveloperNotes", targets: ["DeveloperNotes"])
     ],
     dependencies: [
     ],
