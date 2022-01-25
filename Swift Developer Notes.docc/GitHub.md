@@ -32,3 +32,7 @@ A list of interesting GitHub Repositories.
 - [ceph/ceph](https://github.com/ceph/ceph) – *Ceph is a distributed object, block, and file storage platform*
 - [civetweb/civetweb](https://github.com/civetweb/civetweb) – *Embedded C/C++ web server*
 - [hillegass/BNRPersistence](https://github.com/hillegass/BNRPersistence) – *A set of classes which use Tokyo Cabinet to save and load Objective-C objects*
+
+## Unorganized Gists
+
+- [OSLog Wrapper](https://gist.github.com/smosko/6b8c161a7ae092e7b72e891a5050deaa)
