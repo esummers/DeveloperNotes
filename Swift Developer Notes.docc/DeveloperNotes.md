@@ -10,7 +10,7 @@
 - <doc:Concurrency>
 - <doc:Coding>
 - <doc:ResultBuilders>
-- <doc:AppleDeveloperAccount>
+- <doc:Xcode>
 - <doc:DevTools>
 
 ### Frameworks
@@ -37,3 +37,4 @@
 
 - <doc:macOS>
 - <doc:PreferenceManifest>
+- <doc:Utilities>
