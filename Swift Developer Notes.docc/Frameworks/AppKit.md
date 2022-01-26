@@ -18,7 +18,7 @@ User defaults may use Key-Value Observing to detect remote changes.
 
 Example to make user defaults KeyPath compatible:
 
-```
+```swift
 extension UserDefaults
 {
     static let showMenuKey = "showMenu"
