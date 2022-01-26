@@ -5,13 +5,13 @@ import PackageDescription
 let package = Package(
     name: "DeveloperNotes",
     products: [
-        .library(name: "DeveloperNotes", targets: ["DeveloperNotes"])
+        .library(name: "DeveloperNotes", targets: ["Notes"])
     ],
     dependencies: [
     ],
     targets: [
         .target(
-            name: "DeveloperNotes",
+            name: "Notes",
             dependencies: [],
             path: ".",
             exclude: [ "README.md", "Package.swift" ]
