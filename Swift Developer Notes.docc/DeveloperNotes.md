@@ -12,6 +12,7 @@
 - <doc:ResultBuilders>
 - <doc:Xcode>
 - <doc:DevTools>
+- <doc:WebAssembly>
 
 ### Frameworks
 
